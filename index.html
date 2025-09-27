@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Table</title>
+    <link rel="icons" href="/imgs_login/ecoo.ico">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/cssStyle.css">
+</head>
+<body>
+    <div id="game" >
+        <div id="music">
+            <audio src="audio/music.mp3" id="mu"></audio>
+               <audio src="audio/oginMusic.mp3" id="login-music"></audio>
+               <audio src="audio/song.mp3" id="song"></audio>
+            <audio src="audio/pop.mp3" id="pop"></audio>
+        </div>
+             <img src="imgs_login/setting.png" alt="" id="setting" class="hide">
+             <img src="imgs_login/Exit.png" alt="" id="Exit" class="hide">
+        <div id="nav-bar" class="hide">
+            <p id="nv-theme">light theme</p>
+        </div>
+        <div id="login" class="">
+             <h1 id="h1-login">hello ....</h1>
+              <h2>enter your formation</h2>
+            <input type="text" placeholder="enter your name" id="name"><br><br>
+                <div id="inputs">
+                    <p >Can we have some of your powers ...!</p>
+                     <input type="checkbox" id="check">
+                    <button id="btn-login"> end </button>
+                </div>
+        </div>
+        <div id="box-game" class="hide">
+            <h1 id="h1_game"> Game <br>Test <br>Logo</h1>
+        </div>
+        <div id="rndom" class="hide">
+            <h1 id="haaa"></h1>
+            <h2 id="h2">Number of attempts : <span id="span">3</span></h2>
+            <input type="number" id="num">
+            <button id="btn-end"> end</button>
+            <h5>Enter a number between 1 and 10 . !!!!</h5>
+        </div>
+    </div>
+    
+
+    <script src="/javaScript/main.js"></script>
+    <script src="javaScript/index.js"></script>
+</body>
+</html>

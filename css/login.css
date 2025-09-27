@@ -1,0 +1,143 @@
+:root{
+ --color3 : #FD105E;
+ --color2 : #333333;
+ --color1 : #474747;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    top: -1100px;
+    background-color: var(--color1);
+    box-shadow: 9px 9px 9px 9px var(--color3);
+    z-index: 1;
+    transition: .5s;
+}
+#box-game{
+    width: 200px;
+    height: 270px;
+    left: 100px;
+    top: 100px;
+    box-shadow: 9px 9px 9px 10px var(--color1);
+    position: relative;
+    border-radius: 16px;
+    background-color: var(--color3);
+}
+#box-game h1{
+    position: relative;
+    top: 100px;
+    left: 35px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+#lw{
+    width: 100%;
+    height: 260px;
+    top: -170px;
+    position: relative;
+    background-image: url("imgs/msg.png");
+    border-radius: 19px;
+} 
+#h1-lw{
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+#btn-lw-lst , #btn-lw-win{
+    position: relative;
+    left: 60px;
+    top: 120px;
+    width: 140px;
+    height: 70px;
+    border: 3px solid black ;
+    border-radius: 50px;
+    background-color: wheat;
+    color: var(--color1);
+    font-size: 24px;
+    transition: .5s;
+}
+#img1{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: 60px;
+    border: 3px solid var(--color3);
+}
+#btn-lw-lst:hover , #btn-lw-win:hover{
+    background-color: white;
+    letter-spacing: 2px;
+    scale: 1.1;
+    font-size: 30px;
+}
+
+.very{
+    position: absolute;
+}
+.hide , #hide{
+    display: none;
+    
+}
+#tst1 ,#tst ,#tst2 ,#tst4 ,#tst3  ,#tst5 ,#tst6 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+}
+#chk1 , #chk2{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+#chk1 {
+    left: 70px;
+    top: 220px;
+}
+#chk2{
+    left: 240px;
+    top: 220px;
+}
+#btn-chek{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    border-radius: 16px;
+    border: 4px var(--color3) solid;
+    left: 50px;
+    top: 280px;
+    box-shadow: -1px 9px 9px 1px var(--color3);
+}
+#haaa{
+    font-size: 40px;
+    position: relative;
+    left: 130px;
+    padding-bottom: 20px;
+    color: var(--color3);
+    top: 20px;
+}
+#num{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+#btn-end{
+    position: relative;
+    top: 200px;
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+    left: -90px;
+}
+h5{
+    position: relative;
+    top: 340px;
+    left: 30px;
+    color: wheat;
+}
